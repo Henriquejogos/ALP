@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ALP - Programação em C</title>
+    <link rel="stylesheet" href="estilos.css"/>
+  </head>
+  <body>
+    <div id="divfundo">
+      <header id="cab1">
+        <img src="imagens/imgcbc1.png" />
+        <a href="index.html"> <img id="menulat" src="imagens/menulateral.png"> </a>
+      </header>
+      <header id="cab2">
+      </header>
+      <article class="postagens">
+        <h1 class="titulopost">Básico de C</h1>
+        <p>Programas em C começam com a inclusão das bibliotecas da linguagem(que são comandos predefinidos pelos compiladores que permitem a programação, são exemplos de facilitadores as funções "printf" e "scanf")</p>
+        <p>Para incluir uma biblioteca é necessario digitar primeiramente "include", que indica que uma biblioteca será adicionada. Após isso, entre apêndices, é colocado o nome da biblioteca, como por exemplo a biblioteca "stdio.h" e a "math.h".</p>
+        <pre>
+          <code>
+            include&lsaquo;stdio.h&rsaquo;
+          </code>
+        </pre>
+        <p>Depois adicionamos uma função de nome "main", que é onde o programa vai começar a rodar.</p>
+        <pre>
+          <code>
+            include&lsaquo;stdio.h&rsaquo;
+            int main(){
+          </code>
+        </pre>
+        <h1 class="titulopost">Outros conceitos</h1>
+        <p><b>Variáveis</b>: São dados que ficam alocados na memória do computador, esses dados possuem tipos e nomes. Alguns tipos e os mais utilizados são: int(Números Inteiros), float(Números com casas decimais), double(Números com casas decimais muito longas) e char(Caracteres). Você pode colocar o nome da sua varíavel de sua preferência. Podemos definir um valor para a variável na declaração dela ou mesmo depois.</p>
+        <pre>
+          <code>
+            include&lsaquo;stdio.h&rsaquo;
+            int main(){
+              int exemplo = 5;
+              exemplo = 10;
+            }
+          </code>
+        </pre>
+        <p>Podemos somar, subtrair, dividir, multiplicar ou fazer qualquer outra operação entre as nossas variáveis. Podemos somar uma variável x, que vale 2, com uma variável y, que é igual a 8 e ainda colocando o valor do resultado dentro da variável z. Segue o programa para obter isso.</p>
+        <pre>
+          <code>
+            include&lsaquo;stdio.h&rsaquo;
+            int main(){
+              int x=2, y=8, z;
+              z=x+y;
+            }
+          </code>
+        </pre>
+        <p><b>Prinf e Scanf</b>: São funções feitas para, respectivamente, imprimir o valor de uma variável e perguntar o valor de uma variável. Para usarmos essas funções, usamos o nome delas + entre parêntese(entre aspas(uma porcentagem + A primeira letra do tipo da variável)+uma vírgula + O nome da variável)</p>
+        <pre>
+          <code>
+            include&lsaquo;stdio.h&rsaquo;
+            int main(){
+              int exemplo = 5;
+              printf("%d", exemplo);
+            }
+          </code>
+        </pre>
+        <p>Neste exemplo, o compilador imprimiria o valor "5".</p>
+        <a href="ifelse.html" class="next">Próximo</a>
+        <a href="atividades.html" class="ativ">Atividades</a>
+      </article>
+    </div>
+    <footer>
+      <div id="footer1">
+        <img src="imagens/logo.png"/>
+      </div>
+      <div id="footer2">
+        <p>Feito por Henrique Mateus | Conteúdo de Mateus Tymbú | <a href="bibliografia.html">+Bibliografia</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+body{
+  margin:0px;
+  font-family: Arial;
+  background-color:rgb(32,31,41);
+}
+footer{
+  background-color:rgb(32,31,41);
+  height:180px;
+  color: #ff9700;
+  font-size:30px;
+  padding-left: 70px;
+  display:
+}
+#footer1{
+  float:left;
+  margin-right:25px;
+  padding-top:25px;
+}
+#footer2 a{
+  text-decoration: none;
+  color:#ff9700;
+}
+#footer2{
+  padding-top:55px;
+}
+#divfundo.background-image{
+  position:fixed;
+}
+.postagens{
+  background-color:lightgray;
+  margin-top:40px;
+  margin-left:120px;
+  margin-right:120px;
+  margin-bottom:50px;
+  padding:80px;
+  border: 2px solid black;
+  border-radius:15px;
+  font-size:19px;
+}
+.titulopost{
+  font-size:30px;
+  margin-bottom:50px;
+}
+.temapost{
+
+}
+#exempo #divfundo{
+  opacity: 0;
+}
+#cab1{
+  display:inline-block;
+}
+#cab2{
+  display:inline-block;
+  float:right;
+  background-color:rgb(32,31,41);
+  height: 250px;
+  width:43px;
+}
+#menulat{
+  position:fixed;
+  right:1px;
+}
+.iconimg{
+  margin-top:80px;
+  display:inline-block;
+  margin-left:60px;
+  margin-right:60px;
+}
+.iconimg img{
+  border-radius:50%;
+  border: 10px solid white;
+  opacity: 0.3;
+  transition:1s opacity;
+  transition:1s border;
+}
+.iconimg figcaption{
+  font-family:"Times New Roman";
+  font-size:45px;
+  color:white;
+  text-align:center;
+  width: 320px;
+  position:relative;
+  bottom:80px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000
+}
+.iconimg2{
+  display:inline-block;
+  margin-left:200px;
+  margin-right:;
+  margin-bottom:150px;
+}
+.iconimg2 img{
+  border-radius:50%;
+  border: 10px solid white;
+  opacity: 0.4;
+  transition:1s opacity;
+  transition:1s border;
+}
+.iconimg2 figcaption{
+  font-family:"Times New Roman";
+  font-size:45px;
+  color:white;
+  text-align:center;
+  width: 320px;
+  position:relative;
+  bottom:80px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000
+}
+.iconimg img:hover{
+  opacity:1;
+  border:10px solid #ff9700 ;
+}
+.iconimg2 img:hover{
+  opacity:1;
+  border:10px solid #ff9700 ;
+}
+
+/*Menu Lateral(Vamo tentar né)*/
